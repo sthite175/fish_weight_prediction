@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="plum">
+    <center>
+    <h3> FISH WEIGHT PREDICTION MODEL </h3>
+    <form method="post" action="/prediction">
+        <label>Length1</label>
+        <input type="text" name="Length1">
+        <br>
+        <br>
+        <label>Length2</label>
+        <input type="text" name="Length2">
+        <br>
+        <br>
+        <label>Length3</label>
+        <input type="text" name="Length3">
+        <br>
+        <br>
+        <label>Height</label>
+        <input type="text" name="Height">
+        <br>
+        <br>
+        <label>Width</label>
+        <input type="text" name="Width">
+        <br>
+        <br>
+        <label>Species</label>
+        <input type="text" name="Species">
+        <br>
+        <br>
+        <p style="color:black">
+        <input type="submit" value="Predict Weight">
+        <br>
+        <br>
+        {{Result}}
+        </p>
+    
+    </form>
+    </center>    
+</body>
+</html>
